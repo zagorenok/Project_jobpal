@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Jobpal</title>
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="main-nav-container container">
+        <a class="logo" href="/">
+          <img src="./images/logo.svg" alt="Jobpal web site" width="111" height="40">
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">Product</a>
+            </li>
+            <li class="main-nav-item active">
+              <a class="main-nav-link" href="#">Technology</a>
+            </li>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">Partners</a>
+            </li>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">Customers</a>
+            </li>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">About Us</a>
+            </li>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="app-header-auth-link link link-sm link-secondary" href="#">
+          <span>Sign in</span>
+          <svg width="12" height="10" viewBox="0 0 12 10" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.0647 5.46765L7.31176 9.18823C7.15 9.35 6.89118 9.44706 6.66471 9.44706C6.56765 9.44706 6.50294 9.44706 6.43824 9.41471C6.27647 9.38235 6.14706 9.28529 6.01765 9.18823C5.66176 8.83235 5.66176 8.25 6.01765 7.86176L8.25 5.62941H0.938235C0.614705 5.62941 0.291176 5.43529 0.129411 5.17647C0.0647053 5.04706 0 4.88529 0 4.72353C0 4.20588 0.420588 3.78529 0.938235 3.78529H8.28235L6.01765 1.58529C5.66176 1.22941 5.66176 0.647059 6.01765 0.258824C6.14706 0.129412 6.27647 0.0647059 6.43824 0.0323529C6.50294 -1.86265e-08 6.6 0 6.66471 0C6.92353 0 7.15 0.0970592 7.31176 0.258824L11.0971 4.04412C11.2912 4.23823 11.3882 4.46471 11.3882 4.72353C11.4206 5.04706 11.2912 5.30588 11.0647 5.46765Z"/>
+          </svg>
+        </a>
+      </div>
+    </header>
+    <main class="app-main">
+      <section class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="column col-3 col-sm-6">
+              <h1 class="hero-title">Personalised candidate experience — at scale.</h1>
+              <p class="hero-text paragraph">We build chatbots for your recruitments services</p>
+              <form class="hero-form">
+                <div class="form-field">
+                  <input class="form-field-input form-field-input-secondary" type="text" placeholder="Company Name">
+                </div>
+                <div class="form-field">
+                  <input class="form-field-input form-field-input-secondary" type="email" placeholder="Email Address">
+                </div>
+                <button class="button button-secondary button-lg" type="submit">
+                  <span>Get in touch</span>
+                </button>
+              </form>
+            </div>
+            <div class="column col-3 col-sm-6 pos-relative">
+              <ul class="hero-message-list message-list">
+                <li class="message">
+                  Is there a lot of travel involved in this role?
+                </li>
+                <li class="message message-incoming">
+                  Yes, our consultants travel on a weekly basis throughout the EMEA region. 
+                </li>
+                <li class="message">
+                  Thanks!
+                </li>
+              </ul>
+              <svg class="hero-decor" width="164" height="395" viewBox="0 0 164 395" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.7445 381.902C143.487 307.959 189.941 142.885 116.724 13" stroke="#FEFD6E" stroke-width="25" stroke-miterlimit="10" stroke-linecap="round"/>
+              </svg>                
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="steps-section">
+        <div class="container">
+          <h2 class="steps-section-title heading-1 text-primary">
+            Change the way your business interacts with talent, for the better
+          </h2>
+          <ul class="steps-section-list row">
+            <li class="column col-2 col-md-3 col-sm-6">
+              <div class="step">
+                <div class="step-image">
+                  <img src="./images/icons/ledder.svg" alt="">
+                </div>
+                <div class="step-content">
+                  <h3 class="step-title heading-3 text-primary">With you every step of the way</h3>
+                  <p class="step-text paragraph text-secondary">Continuous assistance and engagement keeps candidates stimulated.</p>
+                </div>
+              </div>
+            </li>
+            <li class="column col-2 col-md-3 col-sm-6">
+              <div class="step">
+                <div class="step-image">
+                  <img src="./images/icons/experience.svg" alt="">
+                </div>
+                <div class="step-content">
+                  <h3 class="step-title heading-3 text-primary">An all-inclusive experience</h3>
+                  <p class="step-text paragraph text-secondary">Appeal to everyone, regardless of their position or background.</p>
+                </div>
+              </div>
+            </li>
+            <li class="column col-2 col-md-3 col-sm-6">
+              <div class="step">
+                <div class="step-image">
+                  <img src="./images/icons/badge.svg" alt="">
+                </div>
+                <div class="step-content">
+                  <h3 class="step-title heading-3 text-primary">Build credibility and trust</h3>
+                  <p class="step-text paragraph text-secondary">Provide an enjoyable experience for the candidate no matter the outcome.</p>
+                </div>
+              </div>
+            </li>
+            <li class="column col-2 col-md-3 col-sm-6">
+              <div class="step">
+                <div class="step-image">
+                  <img src="./images/icons/ledder.svg" alt="">
+                </div>
+                <div class="step-content">
+                  <h3 class="step-title heading-3 text-primary">With you every step of the way</h3>
+                  <p class="step-text paragraph text-secondary">Continuous assistance and engagement keeps candidates stimulated.</p>
+                </div>
+              </div>
+            </li>
+            <li class="column col-2 col-md-3 col-sm-6">
+              <div class="step">
+                <div class="step-image">
+                  <img src="./images/icons/experience.svg" alt="">
+                </div>
+                <div class="step-content">
+                  <h3 class="step-title heading-3 text-primary">An all-inclusive experience</h3>
+                  <p class="step-text paragraph text-secondary">Appeal to everyone, regardless of their position or background.</p>
+                </div>
+              </div>
+            </li>
+            <li class="column col-2 col-md-3 col-sm-6">
+              <div class="step">
+                <div class="step-image">
+                  <img src="./images/icons/badge.svg" alt="">
+                </div>
+                <div class="step-content">
+                  <h3 class="step-title heading-3 text-primary">Build credibility and trust</h3>
+                  <p class="step-text paragraph text-secondary">Provide an enjoyable experience for the candidate no matter the outcome.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="case-study">
+        <div class="container">
+          <div class="case-study-image">
+            <figure class="case-study-quote-wrapper">
+              <blockquote>
+                <p class="case-study-quote heading-1">It really feels like you’re talking to somebody instead of just looking at a career site.</p>
+              </blockquote>
+              <figcaption class="paragraph">
+                Tobias Schilde<br>
+                HR Marketing Consultant<br>
+                Deutches Telekom
+              </figcaption>
+            </figure>
+          </div>
+          <div class="row">
+            <div class="column col-3 col-sm-6">
+              <img class="case-study-decor" src="./images/decor-arc-2.svg" alt="">
+            </div>
+            <div class="column col-3 col-sm-6">
+              <p class="caes-study-descr paragraph text-secondary">
+                We built a chatbot for Deutsche Telekom that has significantly reduced their recruitment teams time spent and cost per hire.
+              </p>
+              <a class="link" href="#">
+                <span>Find out how</span>
+                <svg width="12" height="10" viewBox="0 0 12 10" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.0647 5.46765L7.31176 9.18823C7.15 9.35 6.89118 9.44706 6.66471 9.44706C6.56765 9.44706 6.50294 9.44706 6.43824 9.41471C6.27647 9.38235 6.14706 9.28529 6.01765 9.18823C5.66176 8.83235 5.66176 8.25 6.01765 7.86176L8.25 5.62941H0.938235C0.614705 5.62941 0.291176 5.43529 0.129411 5.17647C0.0647053 5.04706 0 4.88529 0 4.72353C0 4.20588 0.420588 3.78529 0.938235 3.78529H8.28235L6.01765 1.58529C5.66176 1.22941 5.66176 0.647059 6.01765 0.258824C6.14706 0.129412 6.27647 0.0647059 6.43824 0.0323529C6.50294 -1.86265e-08 6.6 0 6.66471 0C6.92353 0 7.15 0.0970592 7.31176 0.258824L11.0971 4.04412C11.2912 4.23823 11.3882 4.46471 11.3882 4.72353C11.4206 5.04706 11.2912 5.30588 11.0647 5.46765Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="always-on-hand">
+        <div class="container">
+          <div class="row">
+            <div class="column col-3 col-md-6 col-sm-6 always-on-hand-icon">
+             <img src="./images/icons/time.svg" alt="">
+            </div>
+            <div class="column col-3 col-md-6 col-sm-6">
+              <h2 class="always-on-hand-title heading-4">
+                Always on hand to ensure you never miss a candidate
+              </h2>
+              <p class="always-on-hand-text paragraph">
+                Your chatbot will be available 24/7 and respond to questions automatically using our FAQ engine, leaving you with more time to focus on pressing tasks. In the instance that a question posed is too tough for the chatbot, this will then be passed on to a recruiter to follow-up in person. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="infront-best-candidates">
+        <div class="container">
+          <div class="row">
+            <div class="column col-3 col-sm-6">
+              <h2 class="infront-best-candidates-title heading-4">
+                Putting you infront of the best candidates, quicker
+              </h2>
+              <p class="infront-best-candidates-subtitle paragraph">
+                Your chatbot automates tedious and time-consuming jobs such as screening applicants’ CVs, recommending the best of the bunch and scheduling interview appointments. This allows you to cut through the noise and get face-to-face with relevant candidates much sooner than using traditional methods.
+              </p>
+            </div>
+            <div class="column col-3 col-sm-6">
+              <div class="infront-best-candidates-img">
+                <img src="./images/best-candidates.png" alt="">
+              </div>
+              <div class="infront-best-candidates-content">
+                <a class="link link-mid infront-best-candidates-content-link" href="#">
+                  <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.45341 0.0461895L6.738 0.0690671C6.96677 0.0690668 7.21841 0.183452 7.37855 0.343591C7.44718 0.412222 7.49294 0.457975 7.51581 0.526607C7.60732 0.663869 7.6302 0.824008 7.65308 0.984147C7.65308 1.48744 7.24129 1.89923 6.71512 1.9221H3.5581L8.7283 7.0923C8.95707 7.32107 9.04857 7.6871 8.97994 7.9845C8.93419 8.12176 8.86556 8.2819 8.75117 8.39629C8.38514 8.76232 7.79034 8.76232 7.42431 8.39629L2.23123 3.20321L2.27699 6.36024C2.27699 6.86353 1.8652 7.27532 1.33903 7.29819C1.15601 7.29819 1.01875 7.25244 0.88149 7.16093C0.812859 7.13805 0.744228 7.06942 0.698474 7.02367C0.515458 6.84065 0.423951 6.61188 0.423951 6.38311V1.0299C0.423951 0.755377 0.515459 0.526607 0.698475 0.343591C0.904367 0.0919441 1.17889 0.000435183 1.45341 0.0461895Z" fill="#0084FF"/>
+                  </svg>
+                  <span>See how</span>
+                  <div class="siemens-icon">
+                    <img src="./images/icons/siemens.svg" alt="" width="70" height="11">
+                  </div>
+                  <p class="infront-best-candidates-text">
+                    are using jobpal to improve their recruitment processes
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="development-wrapper">
+        <div class="container">
+          <ul class="development-wrapper-list row">
+            <li class="development-wrapper-item column col-2 col-md-3 col-sm-6">
+              <p class="development-wrapper-title">
+                MUSINGS
+              </p>
+              <div class="development-wrapper-img">
+                <img src="./images/right-tech.png" alt="">
+              </div>
+              <h2 class="development-wrapper-subtitle paragraph">
+                If you want the right talent, you need to know about the right tech
+              </h2>
+              <p class="development-wrapper-text paragraph">
+               A brief sentence that talks to the content in the post which entices the consumer.
+              </p>
+            </li>
+            <li class="development-wrapper-item column col-2 col-md-3 col-sm-6">
+              <p class="development-wrapper-title">
+                NEWS
+              </p>
+              <div class="development-wrapper-img">
+                <img src="./images/automated-texting.png" alt="">
+              </div>
+              <h2 class="development-wrapper-subtitle paragraph">
+                How automated texting will give you an edge in recruiting
+              </h2>
+              <p class="development-wrapper-text paragraph">
+                A brief sentence that talks to the content in the post which entices the consumer.
+              </p>
+            </li>
+            <li class="development-wrapper-item column col-2 col-md-3 col-sm-6">
+              <p class="development-wrapper-title">
+                TECHNOLOGY
+              </p>
+              <div class="development-wrapper-img">
+                <img src="./images/artificial-intelligence.png" alt="">
+              </div>
+              <h2 class="development-wrapper-subtitle paragraph">
+                Artificial Intelligence: Are we still the centre of attention?
+              </h2>
+              <p class="development-wrapper-text paragraph">
+               A brief sentence that talks to the content in the post which entices the consumer.
+              </p>
+            </li>
+            <li class="development-wrapper-item column col-2 col-md-3 col-sm-6">
+              <p class="development-wrapper-title">
+                TECHNOLOGY
+              </p>
+              <div class="development-wrapper-img">
+                <img src="./images/talent-aquistion.png" alt="">
+              </div>
+              <h2 class="development-wrapper-subtitle paragraph">
+                Artificial intelligence and talent aquisition
+              </h2>
+              <p class="development-wrapper-text paragraph">
+               A brief sentence that talks to the content in the post which entices the consumer.
+              </p>
+            </li>
+            <li class="development-wrapper-item column col-2 col-md-3 col-sm-6">
+              <p class="development-wrapper-title">
+                NEWS
+              </p>
+              <div class="development-wrapper-img">
+                <img src="./images/hitchhikers-guide.png" alt="">
+              </div>
+              <h2 class="development-wrapper-subtitle paragraph">
+                The Hitchhikers’ Guide to AI
+              </h2>
+              <p class="development-wrapper-text paragraph">
+               A brief sentence that talks to the content in the post which entices the consumer.
+              </p>
+            </li>
+            <li class="development-wrapper-item column col-2 col-md-3 col-sm-6">
+              <h3 class="development-wrapper-title">
+                MUSINGS
+              </h3>
+              <div class="development-wrapper-img">
+                <img src="./images/best-candidates.png" alt="">
+              </div>
+              <h4 class="development-wrapper-subtitle paragraph">
+                You need to be close to your candidate
+              </h4>
+              <p class="development-wrapper-text paragraph">
+               A brief sentence that talks to the content in the post which entices the consumer.
+              </p>
+            </li>
+          </ul>
+          <div class="button-wrapper">
+            <button class="button button-lg button-secondary" type="submit">
+              <span>
+                See more posts
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="app-footer">
+      <div class="main-nav-container container">
+        <a class="logo" href="/">
+          <img src="./images/logo.svg" alt="Jobpal web site" width="111" height="40">
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">Product</a>
+            </li>
+            <li class="main-nav-item active">
+              <a class="main-nav-link" href="#">Technology</a>
+            </li>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">Partners</a>
+            </li>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">Customers</a>
+            </li>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">About Us</a>
+            </li>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="link link-sm link-secondary" href="#">
+          <span>Sign in</span>
+          <svg width="12" height="10" viewBox="0 0 12 10" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.0647 5.46765L7.31176 9.18823C7.15 9.35 6.89118 9.44706 6.66471 9.44706C6.56765 9.44706 6.50294 9.44706 6.43824 9.41471C6.27647 9.38235 6.14706 9.28529 6.01765 9.18823C5.66176 8.83235 5.66176 8.25 6.01765 7.86176L8.25 5.62941H0.938235C0.614705 5.62941 0.291176 5.43529 0.129411 5.17647C0.0647053 5.04706 0 4.88529 0 4.72353C0 4.20588 0.420588 3.78529 0.938235 3.78529H8.28235L6.01765 1.58529C5.66176 1.22941 5.66176 0.647059 6.01765 0.258824C6.14706 0.129412 6.27647 0.0647059 6.43824 0.0323529C6.50294 -1.86265e-08 6.6 0 6.66471 0C6.92353 0 7.15 0.0970592 7.31176 0.258824L11.0971 4.04412C11.2912 4.23823 11.3882 4.46471 11.3882 4.72353C11.4206 5.04706 11.2912 5.30588 11.0647 5.46765Z"/>
+          </svg>
+        </a>
+      </div>
+      <div class="app-footer-bottom container">
+        <ul class="footer-nav">
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Privacy</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Terms & Conditions</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Legal Notice</a>
+          </li>
+        </ul>
+        <div class="socials">
+          <p>Find us on</p>
+          <ul class="socials-list">
+            <li>
+              <a href="#">
+                <img src="./images/icons/facebook.svg" alt="" width="41" height="41">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/icons/facebook.svg" alt="" width="41" height="41">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/icons/facebook.svg" alt="" width="41" height="41">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
